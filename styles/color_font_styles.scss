@@ -19,7 +19,7 @@ $margin-between-blocks:30px;
 
 @mixin navigation-links_style{
   float: left;
-  padding: 20px;
+  padding: 18px;
   background: $navigation-links_background;
   text-transform: uppercase;
   font-family: $font-logo;
@@ -89,10 +89,9 @@ $margin-between-blocks:30px;
     }
     color: $a;
   }
-
   &:hover{
     transform: scale(1.02);
-    box-shadow: 0px 0px 6px 1px rgba(209,209,209,1);
+    box-shadow: 0 0 6px 1px rgba(209,209,209,1);
   }
 }
 

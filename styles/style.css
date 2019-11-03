@@ -477,13 +477,13 @@ button, a, select, i {
 
 .main-navigation label {
   float: left;
-  padding: 20px;
+  padding: 18px;
   background: #000;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-size: 0.75em;
   color: #fff;
-  padding: 18px;
+  padding: 16px;
   color: #fff;
   float: right;
   position: absolute;
@@ -494,7 +494,8 @@ button, a, select, i {
   width: 27%;
   position: relative;
   background: #ffd200;
-  padding: 17.5px;
+  padding: 16px;
+  overflow: hidden;
 }
 .pull-down_menu .navigation-bars {
   float: right;
@@ -517,7 +518,7 @@ button, a, select, i {
   opacity: 0;
   width: 100%;
   margin-left: -17px;
-  top: 54px;
+  top: 49px;
   z-index: 1000;
 }
 .pull-down_menu__hover a, .pull-down_menu__hover i {
@@ -550,7 +551,7 @@ button, a, select, i {
 }
 .navigation-links div {
   float: left;
-  padding: 20px;
+  padding: 18px;
   background: #000;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -714,26 +715,24 @@ button, a, select, i {
   float: right;
 }
 
-.left-side {
-  float: left;
-  margin-top: 30px;
-}
-
 .sales div {
   float: right;
 }
 
 .hot-deals {
+  float: left;
   margin-right: 30px;
 }
 
 .left-side {
   width: 26.65%;
+  margin-top: 30px;
 }
 .left-side .hot-deals-head {
   overflow: hidden;
   padding: 20px;
   background: #eee;
+  margin-top: 30px;
 }
 .left-side .hot-deals-head span {
   float: left;
@@ -808,7 +807,7 @@ button, a, select, i {
 }
 .cloth-shop:hover {
   transform: scale(1.02);
-  box-shadow: 0px 0px 6px 1px #d1d1d1;
+  box-shadow: 0 0 6px 1px #d1d1d1;
 }
 
 .pop-up-basket {
@@ -832,6 +831,7 @@ button, a, select, i {
 }
 
 .new-product {
+  float: left;
   margin-right: 0;
   margin-top: 30px;
 }
@@ -850,7 +850,7 @@ button, a, select, i {
 }
 .new-product .new-product_deals section {
   width: 100%;
-  padding: 15px 0 25px 100px;
+  padding: 15px 10px 25px 100px;
   border-bottom: 1px solid #e5e5e5;
 }
 .new-product .new-product_deals section:nth-child(6) {

@@ -477,7 +477,7 @@ button,a,select,i{
 .main-navigation{
   & label{
     @include navigation-links_style;
-    padding: 18px;
+    padding: 16px;
     color: $font-color;
     float: right;
     position: absolute;
@@ -489,7 +489,8 @@ button,a,select,i{
   width: 27%;
   position: relative;
   background: $color-hover;
-  padding: 17.5px;
+  padding: 16px;
+  overflow: hidden;
 
   & .navigation-bars{
     float: right;
@@ -512,7 +513,7 @@ button,a,select,i{
   opacity: 0;
   width: 100%;
   margin-left: -17px;
-  top: 54px;
+  top: 49px;
   z-index: 1000;
 
   & a, i{
@@ -548,7 +549,7 @@ button,a,select,i{
     }
     & div {
       float: left;
-      padding: 20px;
+      padding: 18px;
       background: #000;
       text-transform: uppercase;
       font-family: "Raleway", sans-serif;
@@ -690,10 +691,6 @@ button,a,select,i{
 .right-side-navigation{
   float: right;
 }
-.left-side{
-  float: left;
-  margin-top: $margin-between-blocks;
-}
 
 .sales{
   & div{
@@ -701,14 +698,18 @@ button,a,select,i{
   }
 }
 .hot-deals{
+  float: left;
   margin-right: 30px;
 }
+
 .left-side{
   width: 26.65%;
+  margin-top: $margin-between-blocks;
   & .hot-deals-head{
     overflow: hidden;
     padding: 20px;
     background: #eee;
+    margin-top: $margin-between-blocks;
     & span{
       float: left;
       right: 10px;
@@ -791,29 +792,34 @@ button,a,select,i{
   transition: all 1s ease;
 }
 
-.new-product{
+.new-product {
+  float: left;
   margin-right: 0;
   margin-top: $margin-between-blocks;
-  & .new-product_deals{
+
+  & .new-product_deals {
     padding: 0;
   }
-  & .new-product_deals{
+
+  & .new-product_deals {
     width: 100%;
     float: right;
     overflow: hidden;
     line-height: 1.2;
     border: 1px solid $border-color;
   }
-  & .new-product_deals p{
+
+  & .new-product_deals p {
     text-align: left;
   }
-  & .new-product_deals section{
+
+  & .new-product_deals section {
     width: 100%;
-    padding: 15px 0 25px 100px;
+    padding: 15px 10px 25px 100px;
     border-bottom: 1px solid $border-color;
-    &:nth-child(6){
+
+    &:nth-child(6) {
       border-bottom: none;
     }
   }
-
 }
