@@ -474,31 +474,21 @@ button,a,select,i{
   }
 }
 
-.main-navigation{
-  & label{
-    @include navigation-links_style;
-    padding: 16px;
-    color: $font-color;
-    float: right;
-    position: absolute;
-  }
-}
-
 .pull-down_menu{
   float: left;
   width: 27%;
   position: relative;
   background: $color-hover;
   padding: 16px;
-  overflow: hidden;
 
   & .navigation-bars{
     float: right;
     color: #000;
+    overflow: hidden;
   }
   &:hover .pull-down_menu__hover{
     opacity: 1;
-    transition: transform 1s ease;
+    transition: 1s ease;
   }
   & p {
     text-transform: uppercase;
@@ -512,7 +502,7 @@ button,a,select,i{
   position: absolute;
   opacity: 0;
   width: 100%;
-  margin-left: -17px;
+  margin-left: -16px;
   top: 49px;
   z-index: 1000;
 
@@ -541,11 +531,14 @@ button,a,select,i{
   }
 }
   .navigation-links {
-    width: 100%;
+    color: $font-color;
     & button{
       background: $color-hover;
       border-radius: $border-radius_button;
       border: none;
+      display: inline-block;
+      float: right;
+      overflow: hidden;
     }
     & div {
       float: left;
@@ -554,6 +547,7 @@ button,a,select,i{
       text-transform: uppercase;
       font-family: "Raleway", sans-serif;
       font-size: 0.75em;
+      overflow: hidden;
     }
     a {
       color: $font-color;
@@ -586,6 +580,14 @@ button,a,select,i{
   to{
     transform: scale(1.2);
   }
+}
+.banner{
+  background: linear-gradient(8deg, rgba(196,196,196,1) 0%, rgba(196,196,196,1) 24%, rgba(208,208,208,1) 24%);
+  width: 70%;
+  float: right;
+  overflow: hidden;
+  margin-left: 10px;
+  padding: 150px;
 }
 
 .offers {
