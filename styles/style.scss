@@ -772,6 +772,7 @@ button,a,select,i{
   max-width: 843px;
   width: 72.7%;
   float: right;
+  margin-bottom: 1000px;
 }
 .cloth-shop{
   @include cloth-shop;
@@ -827,5 +828,12 @@ button,a,select,i{
     &:nth-child(6) {
       border-bottom: none;
     }
+  }
+}
+
+footer{
+  .footer_right, .footer_central, .footer_left{
+    float: left;
+    overflow: hidden;
   }
 }
