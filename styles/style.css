@@ -786,6 +786,7 @@ button, a, select, i {
   max-width: 843px;
   width: 72.7%;
   float: right;
+  margin-bottom: 1000px;
 }
 
 .cloth-shop {
@@ -856,6 +857,11 @@ button, a, select, i {
 }
 .new-product .new-product_deals section:nth-child(6) {
   border-bottom: none;
+}
+
+footer .footer_right, footer .footer_central, footer .footer_left {
+  float: left;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
